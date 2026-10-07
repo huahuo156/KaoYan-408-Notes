@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"8c555413a168797c","type":"text","text":"头结点 | next","x":-358,"y":-254,"width":198,"height":60,"color":"3"},
+		{"id":"e9698ef373c40cec","type":"text","text":"头指针","x":-318,"y":-360,"width":118,"height":60,"color":"2"},
+		{"id":"38d4d6b3eb827249","type":"text","text":"首元结点 | next","x":-120,"y":-254,"width":220,"height":60,"color":"3"},
+		{"id":"fbc91307e7412474","type":"text","text":"下一个结点...","x":140,"y":-254,"width":200,"height":60}
+	],
+	"edges":[
+		{"id":"e71b29306a0310d6","fromNode":"e9698ef373c40cec","fromSide":"bottom","toNode":"8c555413a168797c","toSide":"top"},
+		{"id":"894c316b5292db3c","fromNode":"8c555413a168797c","fromSide":"right","toNode":"38d4d6b3eb827249","toSide":"left"},
+		{"id":"d58f6bb2bbbb0302","fromNode":"38d4d6b3eb827249","fromSide":"right","toNode":"fbc91307e7412474","toSide":"left"}
+	]
+}

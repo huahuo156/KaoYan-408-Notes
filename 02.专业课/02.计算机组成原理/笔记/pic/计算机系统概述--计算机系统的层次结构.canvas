@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"1f72328688443c06","type":"text","text":"传统机器 M1\n机器语言机器","x":-354,"y":220,"width":154,"height":100,"color":"5"},
+		{"id":"9bf12bbfb9facf02","type":"text","text":"微程序机器 M0\n微指令系统","x":-369,"y":360,"width":184,"height":80,"color":"5"},
+		{"id":"3d7abd79f3c9d4b4","type":"text","text":"虚拟机器 M2\n操作系统机器","x":-354,"y":80,"width":154,"height":100,"color":"3"},
+		{"id":"4c42cf3a3f7f3bab","x":-354,"y":-200,"width":154,"height":103,"color":"3","type":"text","text":"虚拟机器 M4\n高级语言机器"},
+		{"id":"353cc5cd30f6c647","type":"text","text":"虚拟机器 M3\n汇编语言机器","x":-354,"y":-60,"width":154,"height":100,"color":"3"},
+		{"id":"8dea0d20b777475f","x":-620,"y":-7,"width":50,"height":95,"color":"3","type":"text","text":"软件"},
+		{"id":"6095c8a9db1d150c","type":"text","text":"硬件","x":-620,"y":265,"width":50,"height":95,"color":"5"},
+		{"id":"c91d04f146dee672","x":-161,"y":-179,"width":301,"height":59,"type":"text","text":"用编译语言翻译成汇编语言"},
+		{"id":"dd9e2e8290b4534c","type":"text","text":"用汇编程序翻译成机器语言","x":-161,"y":-36,"width":301,"height":59},
+		{"id":"a0ae7c65596842ce","type":"text","text":"向上提供“广义指令”（系统调用）","x":-161,"y":101,"width":361,"height":50},
+		{"id":"31a810d4938b8ed1","type":"text","text":"执行二进制机器指令","x":-161,"y":241,"width":301,"height":59},
+		{"id":"d1f9c51819246c91","type":"text","text":"由硬件直接执行微指令","x":-161,"y":371,"width":301,"height":59}
+	],
+	"edges":[
+		{"id":"609e1b0f8f353643","fromNode":"4c42cf3a3f7f3bab","fromSide":"bottom","toNode":"353cc5cd30f6c647","toSide":"top"},
+		{"id":"da530a5aeae8f52d","fromNode":"353cc5cd30f6c647","fromSide":"bottom","toNode":"3d7abd79f3c9d4b4","toSide":"top"},
+		{"id":"eabc87002263bd69","fromNode":"3d7abd79f3c9d4b4","fromSide":"bottom","toNode":"1f72328688443c06","toSide":"top"},
+		{"id":"1559caebbba8d751","fromNode":"1f72328688443c06","fromSide":"bottom","toNode":"9bf12bbfb9facf02","toSide":"top"}
+	]
+}

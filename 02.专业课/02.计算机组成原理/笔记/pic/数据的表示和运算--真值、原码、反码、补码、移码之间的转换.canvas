@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"a4be7a3bc3b16a1f","type":"text","text":"$x_{\\text{补}}$","x":-300,"y":-468,"width":64,"height":60},
+		{"id":"4cba748f8ef1b7a3","x":-700,"y":-540,"width":170,"height":85,"color":"3","type":"text","text":"符号：正0负1\n数值位不变"},
+		{"id":"33e2e2a8b8d774c1","x":-780,"y":-468,"width":64,"height":60,"type":"text","text":"$x_{\\text{真值}}$"},
+		{"id":"9e629a0977245559","type":"text","text":"$x_{\\text{原}}$","x":-512,"y":-468,"width":64,"height":60},
+		{"id":"fdbad25078e9e760","type":"text","text":"$x_{\\text{反}}$","x":-512,"y":-240,"width":64,"height":60},
+		{"id":"d64bac90ba8bb910","x":-736,"y":-400,"width":242,"height":151,"color":"3","type":"text","text":"符号位$x_0$不变\n- $x_0=0$数值位不变\n- $x_0=1$数值位取反"},
+		{"id":"f1f425b7ebed2ea2","type":"text","text":"$-x_{\\text{补}}$","x":-300,"y":-240,"width":64,"height":60},
+		{"id":"7208d9d056904ab2","type":"text","text":"符号位$x_0$不变\n- $x_0=0$数值位不变\n- $x_0=1$数值位取反加1","x":-512,"y":-620,"width":276,"height":146,"color":"3"},
+		{"id":"07b8e5a6c84c2d63","x":-223,"y":-515,"width":143,"height":60,"color":"3","type":"text","text":"符号位取反"},
+		{"id":"91b274be6ad89bb0","type":"text","text":"$x_{\\text{移}}$","x":-60,"y":-468,"width":64,"height":60},
+		{"id":"7b64f1c5261fd143","x":-248,"y":-380,"width":188,"height":92,"color":"3","type":"text","text":"符号位取反\n数值位取反加 1"}
+	],
+	"edges":[
+		{"id":"cce6602552070448","fromNode":"33e2e2a8b8d774c1","fromSide":"right","toNode":"9e629a0977245559","toSide":"left"},
+		{"id":"fa45a76609e34584","fromNode":"9e629a0977245559","fromSide":"right","toNode":"a4be7a3bc3b16a1f","toSide":"left","fromEnd":"arrow"},
+		{"id":"923e36d0bc97b9c4","fromNode":"a4be7a3bc3b16a1f","fromSide":"right","toNode":"91b274be6ad89bb0","toSide":"left","fromEnd":"arrow"},
+		{"id":"792e1163833e7969","fromNode":"9e629a0977245559","fromSide":"bottom","toNode":"fdbad25078e9e760","toSide":"top","fromEnd":"arrow"},
+		{"id":"b7a809a83ea963f5","fromNode":"a4be7a3bc3b16a1f","fromSide":"bottom","toNode":"f1f425b7ebed2ea2","toSide":"top","fromEnd":"arrow"}
+	]
+}

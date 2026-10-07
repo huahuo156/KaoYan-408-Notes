@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"685b5d0ac18193b5","type":"text","text":"hello.c","x":-539,"y":-163,"width":119,"height":60},
+		{"id":"7b322298c7ff4171","type":"text","text":"hello.s","x":-160,"y":-163,"width":119,"height":60},
+		{"id":"03e989e1d51a4938","type":"text","text":"hello.i","x":-360,"y":-163,"width":119,"height":60},
+		{"id":"d84d95aebfccb4f3","type":"text","text":"hello.o","x":20,"y":-163,"width":119,"height":60},
+		{"id":"c97a9f1b7d7a8e98","type":"text","text":"hello.exe","x":220,"y":-163,"width":149,"height":60},
+		{"id":"cfeacfff2dbcc213","type":"text","text":"预处理器\n展开头文件、替换宏定义等","x":-531,"y":-300,"width":290,"height":100,"color":"3"},
+		{"id":"bef857d9cc571f02","type":"text","text":"编译器\n将源程序翻译成汇编程序","x":-360,"y":-91,"width":319,"height":83,"color":"3"},
+		{"id":"73d6fc6e55f3427a","type":"text","text":"汇编器\n将汇编语言翻译成二进制机器语言","x":-180,"y":-300,"width":340,"height":100,"color":"3"},
+		{"id":"b740ca8b6bd78631","type":"text","text":"printf.o","x":20,"y":-68,"width":140,"height":60},
+		{"id":"5998b4983961a3db","type":"text","text":"链接器\n将多个相关的模块连接成可执行文件","x":400,"y":-163,"width":200,"height":155,"color":"3"}
+	],
+	"edges":[
+		{"id":"1a379403c08c71ee","fromNode":"685b5d0ac18193b5","fromSide":"right","toNode":"03e989e1d51a4938","toSide":"left"},
+		{"id":"8dee489008de9e3c","fromNode":"03e989e1d51a4938","fromSide":"right","toNode":"7b322298c7ff4171","toSide":"left"},
+		{"id":"d04adfe5163bf088","fromNode":"7b322298c7ff4171","fromSide":"right","toNode":"d84d95aebfccb4f3","toSide":"left"},
+		{"id":"ce9798b722199812","fromNode":"b740ca8b6bd78631","fromSide":"right","toNode":"c97a9f1b7d7a8e98","toSide":"left"},
+		{"id":"c4eb280f09efcc4f","fromNode":"d84d95aebfccb4f3","fromSide":"right","toNode":"c97a9f1b7d7a8e98","toSide":"left"}
+	]
+}
